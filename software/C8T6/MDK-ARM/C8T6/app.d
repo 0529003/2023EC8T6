@@ -30,3 +30,5 @@ c8t6\app.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 c8t6\app.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 c8t6\app.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 c8t6\app.o: ../Core/Inc/tim.h
+c8t6\app.o: ..\USER\LED\led.h
+c8t6\app.o: ../Core/Inc/gpio.h

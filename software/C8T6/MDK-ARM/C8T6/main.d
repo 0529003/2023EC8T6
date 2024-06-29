@@ -33,3 +33,4 @@ c8t6\main.o: ../Core/Inc/tim.h
 c8t6\main.o: ../Core/Inc/usart.h
 c8t6\main.o: ../Core/Inc/gpio.h
 c8t6\main.o: ..\USER\APP\app.h
+c8t6\main.o: ..\USER\LED\led.h
