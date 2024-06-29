@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\USER\APP;..\USER\LED</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\USER\APP;..\USER\LED;..\USER\USART</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -524,6 +524,21 @@
               <FileName>led.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\LED\led.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\USART\uart_1.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\USART\uart_2.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_it_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\USART\uart_it_config.c</FilePath>
             </File>
           </Files>
         </Group>

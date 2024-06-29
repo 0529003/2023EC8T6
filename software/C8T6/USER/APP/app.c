@@ -31,14 +31,14 @@
 void App_Init(void)
 {
  
-//    UART_IT_Init(); // 总串口接收初始化
+	//    UART_IT_Init(); // 总串口接收初始化 使用cubemax不开启，开启卡死
     HAL_TIM_Base_Start_IT(&htim2); // 启动定时器2
 //		OLED_Init();		// OLED初始化
 //		OLED_Clear();
 //		OLED_ShowString(4, 0, "Im YangBIin", 16);
 //	  PWM_Init();
 //    Yuntai_Control();              // 云台初始化
-//		DEBUG_printf("APP", "系统初始化完成~");
+		DEBUG_printf("APP", "系统初始化完成~");
 	  // 控制
 //    Yuntaiz_AB_Move(Servo_MAX_A, Servo_MAX_B, 1);
 //		HAL_Delay(1000);
@@ -50,6 +50,7 @@ void App_Init(void)
 
 int App_Task(void)
 {
+	DEBUG_printf("APP", "系统初始化完成~");
 //	sprintf((char *)str_buff3, "problem_flag:%02d", Problem_Flag);
 //	// 刷新屏幕
 //	sprintf((char *)str_buff4, "x:%04d y:%04d", x, y);

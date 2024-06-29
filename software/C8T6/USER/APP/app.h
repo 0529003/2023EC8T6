@@ -6,9 +6,7 @@
 #include "led.h"
 //#include "key.h"
 //#include "oled.h"
-//#include "uart_it_config.h"
-//#include "uart_1.h"
-//#include "uart_2.h"
+#include "uart_it_config.h"
 //#include "pwm.h"
 //#include "yuntai.h"
 
