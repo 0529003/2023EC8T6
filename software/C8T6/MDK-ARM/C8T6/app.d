@@ -32,7 +32,7 @@ c8t6\app.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 c8t6\app.o: ../Core/Inc/tim.h
 c8t6\app.o: ../USER/LED/led.h
 c8t6\app.o: ../Core/Inc/gpio.h
-c8t6\app.o: ..\USER\OLED\oled.h
+c8t6\app.o: ../USER/OLED/oled.h
 c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdbool.h
 c8t6\app.o: ../USER/USART/uart_it_config.h
 c8t6\app.o: ../USER/USART/uart_3.h
@@ -41,5 +41,5 @@ c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h
 c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdarg.h
 c8t6\app.o: ../USER/USART/uart_2.h
-c8t6\app.o: ..\USER\PWM\pwm.h
-c8t6\app.o: ..\USER\YunTai\yuntai.h
+c8t6\app.o: ../USER/PWM/pwm.h
+c8t6\app.o: ../USER/YunTai/yuntai.h

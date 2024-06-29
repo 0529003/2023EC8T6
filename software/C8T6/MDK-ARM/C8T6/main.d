@@ -34,7 +34,7 @@ c8t6\main.o: ../Core/Inc/usart.h
 c8t6\main.o: ../Core/Inc/gpio.h
 c8t6\main.o: ../USER/APP/app.h
 c8t6\main.o: ../USER/LED/led.h
-c8t6\main.o: ..\USER\OLED\oled.h
+c8t6\main.o: ../USER/OLED/oled.h
 c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdbool.h
 c8t6\main.o: ../USER/USART/uart_it_config.h
 c8t6\main.o: ../USER/USART/uart_3.h
@@ -42,5 +42,5 @@ c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h
 c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdarg.h
 c8t6\main.o: ../USER/USART/uart_2.h
-c8t6\main.o: ..\USER\PWM\pwm.h
-c8t6\main.o: ..\USER\YunTai\yuntai.h
+c8t6\main.o: ../USER/PWM/pwm.h
+c8t6\main.o: ../USER/YunTai/yuntai.h

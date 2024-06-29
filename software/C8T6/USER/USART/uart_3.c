@@ -12,7 +12,7 @@
 
 #define RXBUFFERSIZE_1 256 // 最大接收字节数
 
-// 定义串口句柄,使用串口1
+// 定义串口句柄,使用串口3
 #define UART_HANDLE huart3
 
 // 定义数据缓冲区

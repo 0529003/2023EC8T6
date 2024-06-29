@@ -31,7 +31,7 @@ uint8_t str_buff6[64] = {0};
 void App_Init(void)
 {
  
-	//    UART_IT_Init(); // 总串口接收初始化 使用cubemax不开启，开启卡死
+    UART_IT_Init(); // 总串口接收初始化 使用cubemax不开启，开启卡死
     HAL_TIM_Base_Start_IT(&htim2); // 启动定时器2
 		OLED_Init();		// OLED初始化
 		OLED_Clear();
@@ -46,22 +46,22 @@ void App_Init(void)
 
 int App_Task(void)
 {
-
+	DEBUG_printf("APP","%d,%d",x,y);
 	sprintf((char *)str_buff3, "problem_flag:%02d", Problem_Flag);
 	// 刷新屏幕
 	sprintf((char *)str_buff4, "x:%04d y:%04d", x, y);
 	OLED_ShowString(0, 4, str_buff3, 8);
 	OLED_ShowString(0, 5, str_buff4, 8);
 //	
-//	  // 参数限幅
-//    if (pwm_A > 1613)
-//        pwm_A = Servo_MAX_A;
-//    if (pwm_A < Servo_MIN_A)
-//        pwm_A = Servo_MIN_A;
-//    if (pwm_B > Servo_MAX_B)
-//        pwm_B = Servo_MAX_B;
-//    if (pwm_B < Servo_MIN_B)
-//        pwm_B = Servo_MIN_B;
+	  // 参数限幅
+    if (pwm_A > 1613)
+        pwm_A = Servo_MAX_A;
+    if (pwm_A < Servo_MIN_A)
+        pwm_A = Servo_MIN_A;
+    if (pwm_B > Servo_MAX_B)
+        pwm_B = Servo_MAX_B;
+    if (pwm_B < Servo_MIN_B)
+        pwm_B = Servo_MIN_B;
 
 
 }

@@ -19,9 +19,9 @@ void UART_IT_Init(void)
     // 串口3接收中断初始化
     UART3_Init();
     // 串口2接收中断初始化
-    UART2_Init();
+    UART2_Init();  
     // 串口3接收中断初始化
-    // UART3_Init();
+//     UART3_Init();
 }
 
 // 串口接收完成回调函数
