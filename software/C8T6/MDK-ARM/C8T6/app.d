@@ -35,7 +35,7 @@ c8t6\app.o: ../Core/Inc/gpio.h
 c8t6\app.o: ..\USER\OLED\oled.h
 c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdbool.h
 c8t6\app.o: ../USER/USART/uart_it_config.h
-c8t6\app.o: ../USER/USART/uart_1.h
+c8t6\app.o: ../USER/USART/uart_3.h
 c8t6\app.o: ../Core/Inc/usart.h
 c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\app.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h

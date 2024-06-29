@@ -8,7 +8,7 @@
  * Copyright (c) 2023 by duruofu@foxmail.com All Rights Reserved.
  */
 
-#include "uart_1.h"
+#include "uart_3.h"
 
 #define RXBUFFERSIZE_1 256 // 最大接收字节数
 

@@ -24,12 +24,12 @@
 "c8t6\system_stm32f1xx.o"
 "c8t6\app.o"
 "c8t6\led.o"
-"c8t6\uart_1.o"
 "c8t6\uart_2.o"
 "c8t6\uart_it_config.o"
 "c8t6\oled.o"
 "c8t6\pwm.o"
 "c8t6\yuntai.o"
+"c8t6\uart_3.o"
 --strict --scatter "C8T6\C8T6.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

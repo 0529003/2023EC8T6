@@ -526,11 +526,6 @@
               <FilePath>..\USER\LED\led.c</FilePath>
             </File>
             <File>
-              <FileName>uart_1.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\USER\USART\uart_1.c</FilePath>
-            </File>
-            <File>
               <FileName>uart_2.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\USART\uart_2.c</FilePath>
@@ -554,6 +549,11 @@
               <FileName>yuntai.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\YunTai\yuntai.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\USART\uart_3.c</FilePath>
             </File>
           </Files>
         </Group>

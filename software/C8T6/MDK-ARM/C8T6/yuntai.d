@@ -31,7 +31,7 @@ c8t6\yuntai.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 c8t6\yuntai.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 c8t6\yuntai.o: ..\USER\PWM\pwm.h
 c8t6\yuntai.o: ../Core/Inc/tim.h
-c8t6\yuntai.o: ../USER/USART/uart_1.h
+c8t6\yuntai.o: ../USER/USART/uart_3.h
 c8t6\yuntai.o: ../Core/Inc/usart.h
 c8t6\yuntai.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\yuntai.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h

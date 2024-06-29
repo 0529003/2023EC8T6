@@ -29,7 +29,7 @@ c8t6\uart_it_config.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 c8t6\uart_it_config.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 c8t6\uart_it_config.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 c8t6\uart_it_config.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
-c8t6\uart_it_config.o: ..\USER\USART\uart_1.h
+c8t6\uart_it_config.o: ..\USER\USART\uart_3.h
 c8t6\uart_it_config.o: ../Core/Inc/usart.h
 c8t6\uart_it_config.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\uart_it_config.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h
