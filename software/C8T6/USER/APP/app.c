@@ -5,20 +5,20 @@ extern uint8_t Problem_Flag = 0;
 // [K210]实时位置
 int x = 0;
 int y = 0;
-////--------------------------舵机参考系---------------------
-//// 中心位置处参数
-//extern uint16_t Centre_A = 1460;
-//extern uint16_t Centre_B = 1417;
-//// 舵机A（最值）   垂直
-//extern uint16_t Servo_MAX_A = 2000;
-//extern uint16_t Servo_MIN_A = 1000;
-//// 舵机B （最值）  水平
-//extern uint16_t Servo_MIN_B = 1000;
-//extern uint16_t Servo_MAX_B = 2000;
+//--------------------------舵机参考系---------------------
+// 中心位置处参数
+extern uint16_t Centre_A = 1460;
+extern uint16_t Centre_B = 1417;
+// 舵机A（最值）   垂直
+extern uint16_t Servo_MAX_A = 2000;
+extern uint16_t Servo_MIN_A = 1000;
+// 舵机B （最值）  水平
+extern uint16_t Servo_MIN_B = 1000;
+extern uint16_t Servo_MAX_B = 2000;
 
-//// 实时位置
-//extern uint16_t pwm_A;
-//extern uint16_t pwm_B;
+// 实时位置
+extern uint16_t pwm_A;
+extern uint16_t pwm_B;
 
 // OLED屏幕缓冲区
 uint8_t str_buff1[64] = {0};
@@ -35,16 +35,12 @@ void App_Init(void)
     HAL_TIM_Base_Start_IT(&htim2); // 启动定时器2
 		OLED_Init();		// OLED初始化
 		OLED_Clear();
-		OLED_ShowString(4, 0, "Im your father", 16);
-//	  PWM_Init();
-//    Yuntai_Control();              // 云台初始化
+		OLED_ShowString(4, 0, "START", 16);
+	  PWM_Init();
+    Yuntai_Control();              // 云台初始化
 		DEBUG_printf("APP", "系统初始化完成~");
-	  // 控制
-//    Yuntaiz_AB_Move(Servo_MAX_A, Servo_MAX_B, 1);
-//		HAL_Delay(1000);
-//		Yuntaiz_AB_Move(Servo_MIN_A, Servo_MIN_B, 1);
-//		SERVO_PWMA_Set(1700);
-//		SERVO_PWMB_Set(1500);
+		SERVO_PWMA_Set(1500);
+		SERVO_PWMB_Set(1500);
 	}
 
 

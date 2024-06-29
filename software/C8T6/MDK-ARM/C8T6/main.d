@@ -42,3 +42,5 @@ c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h
 c8t6\main.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdarg.h
 c8t6\main.o: ../USER/USART/uart_2.h
+c8t6\main.o: ..\USER\PWM\pwm.h
+c8t6\main.o: ..\USER\YunTai\yuntai.h
