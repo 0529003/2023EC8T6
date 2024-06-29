@@ -33,5 +33,5 @@ c8t6\uart_2.o: ../Core/Inc/usart.h
 c8t6\uart_2.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdio.h
 c8t6\uart_2.o: D:\keil51\ARM\ARMCC\Bin\..\include\string.h
 c8t6\uart_2.o: D:\keil51\ARM\ARMCC\Bin\..\include\stdarg.h
-c8t6\uart_2.o: ..\USER\LED\led.h
+c8t6\uart_2.o: ../USER/LED/led.h
 c8t6\uart_2.o: ../Core/Inc/gpio.h

@@ -5,7 +5,7 @@
 #include "tim.h"
 #include "led.h"
 //#include "key.h"
-//#include "oled.h"
+#include "oled.h"
 #include "uart_it_config.h"
 //#include "pwm.h"
 //#include "yuntai.h"

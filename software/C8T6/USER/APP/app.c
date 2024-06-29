@@ -1,10 +1,10 @@
 
 #include "app.h"
-//// 题目选择标志位
-//extern uint8_t Problem_Flag = 0;
-//// [K210]实时位置
-//int x = 0;
-//int y = 0;
+// 题目选择标志位
+extern uint8_t Problem_Flag = 0;
+// [K210]实时位置
+int x = 0;
+int y = 0;
 ////--------------------------舵机参考系---------------------
 //// 中心位置处参数
 //extern uint16_t Centre_A = 1460;
@@ -20,22 +20,22 @@
 //extern uint16_t pwm_A;
 //extern uint16_t pwm_B;
 
-//// OLED屏幕缓冲区
-//uint8_t str_buff1[64] = {0};
-//uint8_t str_buff2[64] = {0};
-//uint8_t str_buff3[64] = {0};
-//uint8_t str_buff4[64] = {0};
-//uint8_t str_buff5[64] = {0};
-//uint8_t str_buff6[64] = {0};
+// OLED屏幕缓冲区
+uint8_t str_buff1[64] = {0};
+uint8_t str_buff2[64] = {0};
+uint8_t str_buff3[64] = {0};
+uint8_t str_buff4[64] = {0};
+uint8_t str_buff5[64] = {0};
+uint8_t str_buff6[64] = {0};
 
 void App_Init(void)
 {
  
 	//    UART_IT_Init(); // 总串口接收初始化 使用cubemax不开启，开启卡死
     HAL_TIM_Base_Start_IT(&htim2); // 启动定时器2
-//		OLED_Init();		// OLED初始化
-//		OLED_Clear();
-//		OLED_ShowString(4, 0, "Im YangBIin", 16);
+		OLED_Init();		// OLED初始化
+		OLED_Clear();
+		OLED_ShowString(4, 0, "Im your father", 16);
 //	  PWM_Init();
 //    Yuntai_Control();              // 云台初始化
 		DEBUG_printf("APP", "系统初始化完成~");
@@ -50,12 +50,12 @@ void App_Init(void)
 
 int App_Task(void)
 {
-	DEBUG_printf("APP", "系统初始化完成~");
-//	sprintf((char *)str_buff3, "problem_flag:%02d", Problem_Flag);
-//	// 刷新屏幕
-//	sprintf((char *)str_buff4, "x:%04d y:%04d", x, y);
-//	OLED_ShowString(0, 4, str_buff3, 8);
-//	OLED_ShowString(0, 5, str_buff4, 8);
+
+	sprintf((char *)str_buff3, "problem_flag:%02d", Problem_Flag);
+	// 刷新屏幕
+	sprintf((char *)str_buff4, "x:%04d y:%04d", x, y);
+	OLED_ShowString(0, 4, str_buff3, 8);
+	OLED_ShowString(0, 5, str_buff4, 8);
 //	
 //	  // 参数限幅
 //    if (pwm_A > 1613)

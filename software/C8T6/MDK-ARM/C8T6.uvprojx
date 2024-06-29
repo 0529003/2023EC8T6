@@ -336,7 +336,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\USER\APP;..\USER\LED;..\USER\USART</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../USER/APP;../USER/LED;../USER/USART;../USER/KEY;..\USER\OLED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -539,6 +539,11 @@
               <FileName>uart_it_config.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\USART\uart_it_config.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\OLED\oled.c</FilePath>
             </File>
           </Files>
         </Group>
