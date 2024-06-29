@@ -1,0 +1,10 @@
+*/C8T6
+Output/*
+Output/*.hex
+*.bak
+*.scvd
+*.ini
+*.hp
+*.uvoptx
+*DebugConfig/  
+*OBJ/
